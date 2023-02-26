@@ -32,10 +32,6 @@ public class Movie {
         }
     }
 
-    private int getPriceCode() {
-        return price.getPriceCode();
-    }
-
     public double getCharge(int daysRented) {
         return price.getCharge(daysRented);
     }
